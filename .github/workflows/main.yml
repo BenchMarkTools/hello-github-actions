@@ -1,9 +1,2 @@
-name: A workflow for my Hello World program
-on:push
- 
-  name:Hello World action
-    run-on:ubuntu-latest 
-    -uses:actions/checkout@v1
-    -uses:./action-a
-     with:MY_NAME:"Mona"
-     
+name: A workflow for my Hello World file
+on: push
